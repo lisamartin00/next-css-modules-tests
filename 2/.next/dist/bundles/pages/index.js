@@ -339,10 +339,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css__ = __webpack_require__("./node_modules/basscss/css/basscss.min.css");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_css__ = __webpack_require__("./style.css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_semantic_ui_react__ = __webpack_require__("semantic-ui-react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_semantic_ui_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_semantic_ui_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__ = __webpack_require__("semantic-ui-react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_css__ = __webpack_require__("./styles.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_css__);
 var _jsxFileName = '/Users/lisamartin/Projects/bass-modules/2/pages/index.js';
 
 
@@ -351,7 +351,7 @@ var _jsxFileName = '/Users/lisamartin/Projects/bass-modules/2/pages/index.js';
 
 var Index = function Index() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_3_semantic_ui_react__["Container"],
+    __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Container"],
     {
       __source: {
         fileName: _jsxFileName,
@@ -360,7 +360,7 @@ var Index = function Index() {
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'p',
-      { className: __WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css___default.a.caps + ' ' + __WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css___default.a.bold + ' ' + __WEBPACK_IMPORTED_MODULE_2__style_css___default.a.foo, __source: {
+      { className: __WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css___default.a.caps + ' ' + __WEBPACK_IMPORTED_MODULE_1_basscss_css_basscss_min_css___default.a.bold + ' ' + __WEBPACK_IMPORTED_MODULE_3__styles_css___default.a.foo, __source: {
           fileName: _jsxFileName,
           lineNumber: 7
         }
@@ -369,12 +369,12 @@ var Index = function Index() {
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'p',
-      { className: 'ui message', __source: {
+      { className: 'bar', __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         }
       },
-      'Why, oh why?!?'
+      'Blue?'
     )
   );
 };
@@ -383,11 +383,11 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ "./style.css":
+/***/ "./styles.css":
 /***/ (function(module, exports) {
 
 module.exports = {
-	"foo": "_2MjFyCIlJmKJw7t28b5ESk"
+	"foo": "_1ywIfm3qptR126BPhIuLfw"
 };
 
 /***/ }),
