@@ -1,4 +1,4 @@
-import basscss from 'basscss/css/basscss-important.min.css';
+import basscss from 'basscss/css/basscss-important.css';
 import { Header, Button } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import UserGrid from '../components/UserGrid/UserGrid';

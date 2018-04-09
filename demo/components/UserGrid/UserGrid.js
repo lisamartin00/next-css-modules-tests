@@ -1,5 +1,5 @@
 import { Table, Image } from 'semantic-ui-react';
-import basscss from 'basscss/css/basscss.min.css';
+import { italic } from 'basscss/css/basscss-important.css';
 import styles from './UserGrid.css';
 
 
@@ -81,7 +81,7 @@ const UserGrid = () => (
           </Table.Cell>
           <Table.Cell>{ user.first }</Table.Cell>
           <Table.Cell>{ user.last }</Table.Cell>
-          <Table.Cell className={basscss.italic}>{ user.role }</Table.Cell>
+          <Table.Cell className={italic}>{ user.role }</Table.Cell>
           <Table.Cell>{ user.added }</Table.Cell>
           <Table.Cell>
             <span className={styles.actionButton}>

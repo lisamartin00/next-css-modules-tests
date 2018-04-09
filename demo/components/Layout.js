@@ -1,10 +1,10 @@
-import basscss from 'basscss/css/basscss.min.css'
+import { mt4 } from 'basscss/css/basscss-important.css';
 import { Container } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import '../semantic.css';
 
 const Layout = props => (
-  <Container className={basscss.mt4}>
+  <Container className={mt4}>
     {props.children}
   </Container>
 )
