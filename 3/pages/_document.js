@@ -1,6 +1,5 @@
 // ./pages/_document.js
 import Document, { Head, Main, NextScript } from 'next/document';
-import '../semantic.css';
 
 export default class MyDocument extends Document {
   render() {

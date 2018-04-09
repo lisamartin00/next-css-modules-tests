@@ -1,0 +1,13 @@
+.scrim {
+  display: none;
+  cursor: pointer;
+  background: black;
+  opacity: .2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover .scrim {
+  display: block;
+}

@@ -1,17 +1,18 @@
-import basscss from 'basscss/css/basscss.min.css'
-import { Container } from 'semantic-ui-react';
-import styles from '../styles.css';
-import '../semantic.css';
+import basscss from 'basscss/css/basscss-important.min.css';
+import { Header, Button } from 'semantic-ui-react';
+import Layout from '../components/Layout';
+import UserGrid from '../components/UserGrid/UserGrid';
+import UserCard from '../components/UserCard/UserCard';
 
 const Index = () => (
-  <Container>
-    <p className={`${basscss.caps} ${basscss.bold} ${styles.foo}`}>
-      Caps and Bold CSS come from basscss.  
-      Red comes from local CSS Modules css.
-    </p>
-    <p className="bar">Blue?</p>
-    <a href="/otherPage">Other Page</a>
-  </Container>
+  <Layout>
+    <div className={`${basscss.flex} ${basscss['justify-between']}`}>
+      <Header as="h1" className={basscss.caps}>Users</Header>
+      <Button primary>Add User</Button>
+    </div>
+    <UserGrid />
+    <UserCard />
+  </Layout>
 )
 
-export default Index
+export default Index;

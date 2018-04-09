@@ -1,0 +1,6 @@
+.actionButton {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 20px;
+  cursor: pointer;
+}
