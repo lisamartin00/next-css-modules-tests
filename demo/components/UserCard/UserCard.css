@@ -10,3 +10,7 @@
 .card:hover .scrim {
   display: block;
 }
+
+.card:active .scrim {
+  opacity: .8;
+}
