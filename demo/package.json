@@ -6,13 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "next build",
-    "dev": "next"
+    "dev": "next",
+    "watch": "npm-watch",
+    "compile-less": "lessc ./components/UserCard/UserCard.less ./components/UserCard/UserCard.css"
+  },
+  "watch": {
+    "compile-less": {
+      "patterns": [
+        "components/**/*.less"
+      ]
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^0.1.5",
+    "less": "3.0.1",
     "next": "^5.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
