@@ -1,0 +1,12 @@
+/* Custom Gloo variables go here */
+@pageBackground: #f8f8f8;
+@textColor: #666;
+@lightTextColor: #999;
+
+@fontName: 'Open Sans';
+@googleFontName: 'Open+Sans';
+@googleFontSizes   : '400,600,700,400italic,700italic';
+
+@primaryColor: #1c9ae0;
+@primaryColorHover: #148ccc;
+@primaryColorActive: #1383bf;
